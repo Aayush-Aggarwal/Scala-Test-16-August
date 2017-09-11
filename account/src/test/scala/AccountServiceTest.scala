@@ -1,4 +1,4 @@
-import main.scala.{AccountService, User}
+package main.scala
 
 
 class AccountServiceTest extends org.scalatest.FunSuite {
@@ -6,8 +6,6 @@ class AccountServiceTest extends org.scalatest.FunSuite {
   val user = User("ayush", "ayush@knoldus.in", 7838467221L, "ayushaggarwal")
 
   val accService = new AccountService()
-
-  import accService._
 
   test("It should be able to add new user") {
     assert(accService.addUser(user))

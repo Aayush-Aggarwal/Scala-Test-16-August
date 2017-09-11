@@ -16,14 +16,16 @@ class AccountService extends MasterData {
       listOfUser += (user.phoneNumber -> user)
       true
     }
-    else
+    else {
       false
+    }
   }
 
   def authenticatedUser(name: String, password: String): String = {
     val users = listOfUser.filter(usr => usr._2.name == name && usr._2.password == password)
-    if (users.isEmpty)
+    if (users.isEmpty) {
       "Failed"
+    }
     else {
       val token = BCrypt.hashpw(password, BCrypt.gensalt())
       token

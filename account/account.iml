@@ -17,12 +17,10 @@
       <sourceFolder url="file://$MODULE_DIR$/target/scala-2.12/resource_managed/main" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/test/resources" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/target/scala-2.12/resource_managed/test" type="java-test-resource" />
-      <sourceFolder url="file://$MODULE_DIR$/src/test" isTestSource="true" />
       <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="module" module-name="inventory" exported="" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalatest:scalatest_2.12:3.0.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scalactic:scalactic_2.12:3.0.3:jar" level="project" />
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang.modules:scala-xml_2.12:1.0.5:jar" level="project" />
@@ -30,5 +28,6 @@
     <orderEntry type="library" scope="TEST" name="SBT: org.scala-lang:scala-reflect:2.12.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.scala-lang:scala-library:2.12.2:jar" level="project" />
     <orderEntry type="library" name="SBT: org.mindrot:jbcrypt:0.3m:jar" level="project" />
+    <orderEntry type="module" module-name="Inventory" exported="" />
   </component>
 </module>
